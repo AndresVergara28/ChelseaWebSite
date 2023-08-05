@@ -387,3 +387,80 @@ main .content .div3{
     padding-bottom: 100px;
 }
 
+/* CARRUSELL*/
+
+.imgCarousel {
+    width: 100vw;
+    height: 75vh;
+    object-fit: cover;
+
+
+}
+
+/* FOOTER */
+
+footer {
+    background-color: #001489;
+    margin-bottom: 0;
+    padding-bottom: 0;
+
+    color: #fff;
+}
+
+footer .bottomFooter p {
+    padding-bottom: 0;
+    margin-bottom: 0;
+    border-bottom: 0;
+}
+
+/* SECTION LAST VIDEOS */
+.lastVideos {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding-bottom: 100px;
+   
+}
+
+
+.carousel-indicators button {
+    width: 100px;
+    /* Ancho de los botones */
+    height: 100px;
+    /* Altura de los botones */
+    border-radius:0%;
+    /* Hace que los botones sean circulares */
+    background-color: #eeff00;
+    /* Color de fondo azul */
+    border: none;
+    /* Quita el borde del botón */
+    margin: 0 5px;
+    /* Espaciado entre los botones */
+}
+
+.carousel-indicators .active {
+    background-color:#001489;
+    /* Color de fondo azul oscuro para el indicador activo */
+}
+
+.carousel-indicators{
+    background-color: #FFD700;
+    
+}
+
+/* CARD */
+
+.card{
+    
+    background-color:#ffffff;
+    color:white;
+    font-weight: bolder;
+    border-color: none;
+    border: 0;
+}
+.card-body{
+    background-color:#FFD700;
+    border-radius: 0.2rem;
+}
+.card-text{
+    font-size:1rem;;
+}

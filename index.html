@@ -9,161 +9,180 @@
         integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <link rel="stylesheet" href="css/estilos.css">
     <script src="https://kit.fontawesome.com/e741caead8.js" crossorigin="anonymous"></script>
-    <link rel="shortcut icon" href="https://img.chelseafc.com/image/upload/f_auto,c_pad,ar_1,w_140,h_140,q_auto:best/Site%20Chelsea%20Badges/Main_Website_Badge_-_Colour.png" type="image/x-icon">
+    <link rel="shortcut icon"
+        href="https://img.chelseafc.com/image/upload/f_auto,c_pad,ar_1,w_140,h_140,q_auto:best/Site%20Chelsea%20Badges/Main_Website_Badge_-_Colour.png"
+        type="image/x-icon">
 </head>
 
 <body>
 
-    <header>
-        <div class="logo">
-            <a href="index.html"> <img
-                    src="https://img.chelseafc.com/image/upload/f_auto,c_pad,ar_1,w_140,h_140,q_auto:best/Site%20Chelsea%20Badges/Main_Website_Badge_-_Colour.png"
-                    alt="Chelsea img"></a>
-        </div>
-
-        <div class="nav">
-            <nav>
-                <ul>
-                    <li><a href="html/latest.html">Latest</a></li>
-                    <li><a href="html/chelsea_women.html">Chelsea Women</a></li>
-                    <li><a href="html/chelsea_men.html">Chelsea Men</a></li>
-                    <li><a href="html/buy_tickets.html">Buy Tickets</a></li>
-                    <li><a href="">Shop</a></li>
-
+    <header class="navbar navbar-expand-lg bg-body-tertiary sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img class="logo" src="recursos/Main_Website_Badge_-_Colour.webp" alt="chelseaIcon">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav mx-auto fuentes">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Chelsea Women</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Chelsea Men</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Latest</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Buy tickets
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Chelsea Senior Women</a></li>
+                            <li><a class="dropdown-item" href="#">Chelsea Senior Men</a></li>
+                            <li><a class="dropdown-item" href="#">Chelsea Academy</a></li>
+                        </ul>
+                    </li>
                 </ul>
             </nav>
         </div>
-
-        <div class="menu">
-            <i class="fa-solid fa-bars fa-2xl"></i>
-        </div>
-
     </header>
 
     <main>
-        <section class="carruselSection">
-            <h1>HERE GOES A CARRUSEL</h1>
-        </section>
 
-        <section class="latesVideoSection">
-
-            <div class="latesVideoHeader">
-                <div class="latesVideoLink">
-                    <h2> <a href="html/latest.html">LATEST VIDEO -></a></h2>
+        <section class="carrusel container-fluid">
+            <div id="carouselExampleCaptions" class="carousel slide">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
                 </div>
-
-                <div>
-                    <button>atras</button>
-                    <button>adelante</button>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="imgCarousel" src="recursos/Pochettino_Newcastle_GettyImages-1573213165.webp"
+                            class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>First slide label</h5>
+                            <p>Some representative placeholder content for the first slide.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img class="imgCarousel" src="recursos/disasi-signing-crop.webp" class="d-block w-100"
+                            alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Second slide label</h5>
+                            <p>Some representative placeholder content for the second slide.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img class="imgCarousel" src="recursos/DAR_9775.webp" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Third slide label</h5>
+                            <p>Some representative placeholder content for the third slide.</p>
+                        </div>
+                    </div>
                 </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
             </div>
 
-            <div class="videosContainer">
-                <div class="VideoBox">Video1</div>
-                <div class="VideoBox">Video2</div>
-                <div class="VideoBox">Video3</div>
-                <div class="VideoBox">Video4</div>
-            </div>
-        </section>
-
-        <section class="nextFeaturesSection">
-            <div class="nextFeaturesHeader">
-
-                <div class="sectionName">
-                    <h2>NEXT FEATURES</h2>
-                </div>
-
-                <div class="sectionCategories">
-                    <button>Men</button>
-                    <button>Women</button>
-                    <button>Academy</button>
-                </div>
-
-            </div>
-
-            <div class="featuresContainer">
-                <div class="featuresBox">
-                    <h2>Fecha1</h2>
-                    <div class="feat">
-                        <img src="" alt="Img1">
-                        <h3>vs</h3>
-                        <img src="" alt="Img2">
-                    </div>
-                    <button>Buy Ticket</button>
-                </div>
-                <div class="featuresBox">
-                    <h2>Fecha1</h2>
-                    <div class="feat">
-                        <img src="" alt="Img1">
-                        <h3>vs</h3>
-                        <img src="" alt="Img2">
-                    </div>
-                    <button>Buy Ticket</button>
-                </div>
-                <div class="featuresBox">
-                    <h2>Fecha1</h2>
-                    <div class="feat">
-                        <img src="" alt="Img1">
-                        <h3>vs</h3>
-                        <img src="" alt="Img2">
-                    </div>
-                    <button>Buy Ticket</button>
-                </div>
-                <div class="featuresBox">
-                    <h2>Fecha1</h2>
-                    <div class="feat">
-                        <img src="" alt="Img1">
-                        <h3>vs</h3>
-                        <img src="" alt="Img2">
-                    </div>
-                    <button>Buy Ticket</button>
-                </div>
-
-            </div>
 
         </section>
+        
+        <section class="lastVideos container ">
+            <div>
+                <h2 >Latest Video</h2>
+            </div>
 
-        <section class="sponsorSection">
-            <img src="https://img.chelseafc.com/image/upload/f_auto,c_pad,h_88,w_264,q_90/Partner%20Logos%202022/Low%20Resolution%20(Small%20File%20Size)/Nike_Swoosh_Black.png"
-                alt="sponsor1">
-            <img src="https://img.chelseafc.com/image/upload/f_auto,c_pad,h_88,w_264,q_90/Partner%20Logos%202022/Low%20Resolution%20(Small%20File%20Size)/Principal%20Partners/Trivago_Coloured.png"
-                alt="sponsor2">
-            <img src="https://img.chelseafc.com/image/upload/f_auto,c_pad,h_88,w_264,q_90/Partner%20Logos%202022/Low%20Resolution%20(Small%20File%20Size)/Principal%20Partners/Three_Black.png"
-                alt="sponsor3">
-            <img src="https://img.chelseafc.com/image/upload/f_auto,c_pad,h_88,w_264,q_90/Partner%20Logos%202022/Low%20Resolution%20(Small%20File%20Size)/logo_-_EA_Sports_FC_footer.png"
-                alt="sponsor4">
-            <img src="https://img.chelseafc.com/image/upload/f_auto,c_pad,h_88,w_264,q_90/logos/sponsors/footer-logos/singha_footer_600x200.png"
-                alt="sponsor5">
-            <img src="https://img.chelseafc.com/image/upload/f_auto,c_pad,h_88,w_264,q_90/Partner%20Logos%202022/Low%20Resolution%20(Small%20File%20Size)/Sure.png"
-                alt="sponsor5">
-
+            <div class="row text-center">
+                <div class="card pt-3 col-sm-12 col-md-6 col-lg-3">
+                    <a href="">
+                        <img src="/recursos/DAR_9775.webp" class="card-img-top" alt="...">
+                        <div class="card-body mg-1">
+                            <p class="card-text">Pochetino first´s pre-match conference as chelsea head
+                                coach.
+                            </p>
+                        </div>
+                    </a>
+                </div>
+                <div class="card pt-3 col-sm-12 col-md-6 col-lg-3 ">
+                    <a href="">
+                        <img src="/recursos/DAR_9775.webp" class="card-img-top" alt="...">
+                        <div class="card-body mg-1">
+                            <p class="card-text">Pochetino first´s pre-match conference as chelsea head
+                                coach.
+                            </p>
+                        </div>
+                    </a>
+                </div>
+                <div class="card pt-3 col-sm-12 col-md-6 col-lg-3 ">
+                    <a href="">
+                        <img src="/recursos/DAR_9775.webp" class="card-img-top" alt="...">
+                        <div class="card-body mg-1">
+                            <p class="card-text">Pochetino first´s pre-match conference as chelsea head
+                                coach.
+                            </p>
+                        </div>
+                    </a>
+                </div>
+                <div class="card pt-3 col-sm-12 col-md-6 col-lg-3 ">
+                    <a href="">
+                        <img src="/recursos/DAR_9775.webp" class="card-img-top" alt="...">
+                        <div class="card-body mg-1">
+                            <p class="card-text">Pochetino first´s pre-match conference as chelsea head
+                                coach.
+                            </p>
+                        </div>
+                    </a>
+                </div>
+                
+            </div>
+            
         </section>
+
 
     </main>
 
-    <footer>
 
-        <div class="informationFooter">
-            <img src="https://img.chelseafc.com/image/upload/f_auto,c_pad,ar_1,w_140,h_140,q_auto:best/Site%20Chelsea%20Badges/Main_Website_Badge_-_Colour.png"
-                alt="logo2">
-            <div class="clubInformation">
-                <h3>Chelsea Football Club</h3>
-                <h4>Stamford Bridge</h4>
-                <h4>Fullham Road</h4>
-                <h4>London</h4>
-                <h4>SW6 1HS</h4>
-
+    <footer class="container-fluid px-3 py-3">
+        <div class="row">
+            <div class="col-sm-12 col-md-6 col-lg-6 d-flex py-3">
+                <img class="logo" src="recursos/Main_Website_Badge_-_Colour.webp" alt="chelseaIcon">
+                <div class="px-3">
+                    <h3 class="tex">Chelsea Football Club</h3>
+                    <h4>Stamford Bridge</h4>
+                    <h4>Fullham Road</h4>
+                    <h4>London</h4>
+                    <h4>SW6 1HS</h4>
+                </div>
             </div>
 
-            <div class="contactUs">
+            <div class="col-sm-12 col-md-6 col-lg-3 py-3">
                 <h4><a href="">Contact Us</a></h4>
                 <h4><a href="">Frequenly Questions</a></h4>
                 <h4><a href="">Junior Blues</a></h4>
             </div>
 
-            <div class="downloadApp">
+            <div class="col-sm-12 col-md-12 col-lg-3 py-3">
                 <h5>Get unrivalled access to all things Chelsea with our official club app, The 5th Stand.</h5>
-
                 <div class="appsImgs">
                     <img src="https://img.chelseafc.com/image/upload/f_auto,c_fill,dpr_2.0,w_120,h_40,fl_lossy,q_100/site-assets/app-stores/Download_On_The_App_Store.png"
                         alt="IOS download" width="100px">
@@ -172,10 +191,9 @@
                 </div>
             </div>
         </div>
-        <div class="bottomFooter">
-
-            <p>© 2022 Chelsea FC. All rights reserved. No part of this site may be reproduced without our written
-                permission.</p>
+        <div class="col-sm-12 col-md-12 col-lg-12 py-3 bottomFooter">
+            <p class="text-center">© 2022 Chelsea FC. All rights reserved. No part of this site may be reproduced
+                without our written permission.</p>
         </div>
     </footer>
 
