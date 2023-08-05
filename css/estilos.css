@@ -1,3 +1,7 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+
 /* REINICAR SISTEMA */
 
 *{
@@ -6,53 +10,74 @@
     box-sizing: border-box;
 }
 
+/* CONFIGURACIONES GENERALES */
+
+body {
+    background-color: rgb(255, 255, 255);
+    font-family: 'Roboto', sans-serif;
+}
+
+
 /* AQUI MODIFICAREMOS EL HEADER */
-.logo{
-    cursor:copy;
-}
-header{
-    background-color: white;
-    border-bottom: 0.5px solid black;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    /* background-color: bisque; */
-    position: sticky;
-    top: 0;
-    
-}
-header .nav nav ul li{
-    border-left: 2px solid black;
-    border-right: 2px solid black;
-    padding-left: 20px;
-    padding-right: 20px;
+
+.logo {
+    width: 10rem;
 }
 
-li{
-    display: inline-block;
+.fuentes {
+    font-weight: bolder;
     font-size: 1.5rem;
+    color: #001489;
+    padding: 2rem;
+}
+
+.fuentes li a:hover {
+    background-color: rgb(69, 69, 85);
+    color: white;
+}
+main .headerLatest{
+    padding-top: 0px;
+    padding-bottom: 0px;
 
 }
 
-a{
-    text-decoration: none;
+/* AQUI MODIFICAREMOS EL FOOTER */
+footer{
+    color: white;
+    background-color: #001489;
 }
+
+.iconFooter{
+    width: 2px;
+}
+
+
 
 /* AQUI EMPIEZA EL DISEÑO DEL MAIN */
 
 /* CARRUSEL SECTION */
-.carruselSection{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: rgb(74, 88, 188);
-    width: 100vw;
-    height: 10vh;
-
+.lastVideos {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding-bottom: 100px;
 }
-.carruselSection h1{
-    font-size: x-large;
-    color:white;
+
+
+.carousel-indicators button {
+    width: 100px;
+    height: 100px;
+    border-radius:0%;
+    background-color: #eeff00;
+    border: none;
+    margin: 0 5px;
+}
+
+.carousel-indicators .active {
+    background-color:#001489;
+}
+
+.carousel-indicators{
+    background-color: #FFD700;
 }
 
 
@@ -182,39 +207,7 @@ button{
     
 }
 
-/* FOOOOOOOTEEEEEEEEERR */
-/* Modificaremos la section de footer */
-/* Estilos para el footer */
-footer{
-    background-color: #001489;
-    color: #fff;
-    padding: 50px 0 0;
-}
 
-footer .informationFooter{
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-}
-
-footer .informationFooter .downloadApp .appsImgs{
-
-    display: flex;
-    justify-content: center;
-}
-
-footer .informationFooter .contactUs{
-   
-    border-left: 1px solid hsla(0,0%,100%,.3);
-    border-right: 1px solid hsla(0,0%,100%,.3);
-    padding: 0 20px 15px 38px;
-}
-
-footer .bottomFooter{
-    padding: 20px;
-    display: flex;
-    justify-content: center;
-}
 
 /* BUY TICKETS HTML  */
 /* SECTION MEN FEATURES */
@@ -357,35 +350,7 @@ main .forwards{
 /* LATEST NEWS STYLE */
 /* SECTION MAIN HEADER */
 
-main .headerLatest{
-    padding-top: 0px;
-    padding-bottom: 0px;
 
-}
-
-
-main .content .contentContainer{
-   
-    display: flex;
-    justify-content: center;
-    gap: 50px;
-    align-items: center;
-    padding-top: 25px;
-    padding-bottom: 25px;
-    
-}
-
-main .content .contentContainerSubtitle{
-    color: #001489;
-    display: flex;
-    justify-content: center;
-    padding: 50px;
-}
-
-main .content .div3{
-
-    padding-bottom: 100px;
-}
 
 /* CARRUSELL*/
 
@@ -397,55 +362,10 @@ main .content .div3{
 
 }
 
-/* FOOTER */
 
-footer {
-    background-color: #001489;
-    margin-bottom: 0;
-    padding-bottom: 0;
 
-    color: #fff;
-}
-
-footer .bottomFooter p {
-    padding-bottom: 0;
-    margin-bottom: 0;
-    border-bottom: 0;
-}
 
 /* SECTION LAST VIDEOS */
-.lastVideos {
-    margin-top: 100px;
-    margin-bottom: 100px;
-    padding-bottom: 100px;
-   
-}
-
-
-.carousel-indicators button {
-    width: 100px;
-    /* Ancho de los botones */
-    height: 100px;
-    /* Altura de los botones */
-    border-radius:0%;
-    /* Hace que los botones sean circulares */
-    background-color: #eeff00;
-    /* Color de fondo azul */
-    border: none;
-    /* Quita el borde del botón */
-    margin: 0 5px;
-    /* Espaciado entre los botones */
-}
-
-.carousel-indicators .active {
-    background-color:#001489;
-    /* Color de fondo azul oscuro para el indicador activo */
-}
-
-.carousel-indicators{
-    background-color: #FFD700;
-    
-}
 
 /* CARD */
 
