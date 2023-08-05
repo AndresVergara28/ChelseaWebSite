@@ -1,0 +1,389 @@
+/* REINICAR SISTEMA */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* AQUI MODIFICAREMOS EL HEADER */
+.logo{
+    cursor:copy;
+}
+header{
+    background-color: white;
+    border-bottom: 0.5px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* background-color: bisque; */
+    position: sticky;
+    top: 0;
+    
+}
+header .nav nav ul li{
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+li{
+    display: inline-block;
+    font-size: 1.5rem;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+/* AQUI EMPIEZA EL DISEÑO DEL MAIN */
+
+/* CARRUSEL SECTION */
+.carruselSection{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(74, 88, 188);
+    width: 100vw;
+    height: 10vh;
+
+}
+.carruselSection h1{
+    font-size: x-large;
+    color:white;
+}
+
+
+/* LATEST VIDEO SECTION */
+
+.latesVideoSection{
+    height: 400px;
+}
+
+.latesVideoSection .latesVideoHeader{
+    padding-top: 20px;
+    
+    display: flex;
+    justify-content: space-evenly
+}
+
+.latesVideoSection .latesVideoHeader .latesVideoLink{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.videosContainer{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+
+}
+.VideoBox{
+    background-color: rgb(133, 137, 159);
+    border: 4px solid rgb(218, 184, 18);
+    color: white;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+button{
+
+    padding: 5px;
+    background-color: #03f;
+    border-radius: 0px;
+    color: white;
+}
+
+
+/* NEXT FEATURES SECTION */
+
+.featuresBox{
+    background-color: rgb(145, 150, 179);
+    border: 4px solid rgb(218, 184, 18);
+    color: white;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nextFeaturesSection{
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 500px;
+}
+
+.nextFeaturesSection .features .nextFeaturesSectionBackground{
+    position: absolute;
+}
+
+.nextFeaturesSection .nextFeaturesHeader{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+}
+
+.nextFeaturesSection .nextFeaturesHeader .sectionCategories {
+    padding-top: 5px;
+   gap: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+.nextFeaturesSection .featuresContainer{
+    
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    gap: 60px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.nextFeaturesSection .featuresContainer .featuresBox{
+    display: flex;
+    flex-direction:column;
+    justify-content: space-around;
+}
+
+.nextFeaturesSection .featuresContainer .featuresBox .feat{
+
+    display: flex;
+    gap: 10px; 
+}
+
+ /* SPOOOONSOOOORSSS */
+/* Modificaremos la section de sponsors */
+.sponsorSection{
+    border-top: 2px solid rgb(170, 170, 170);
+    border-bottom: 2px solid rgb(170, 170, 170);
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    
+}
+
+/* FOOOOOOOTEEEEEEEEERR */
+/* Modificaremos la section de footer */
+/* Estilos para el footer */
+footer{
+    background-color: #001489;
+    color: #fff;
+    padding: 50px 0 0;
+}
+
+footer .informationFooter{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+footer .informationFooter .downloadApp .appsImgs{
+
+    display: flex;
+    justify-content: center;
+}
+
+footer .informationFooter .contactUs{
+   
+    border-left: 1px solid hsla(0,0%,100%,.3);
+    border-right: 1px solid hsla(0,0%,100%,.3);
+    padding: 0 20px 15px 38px;
+}
+
+footer .bottomFooter{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+/* BUY TICKETS HTML  */
+/* SECTION MEN FEATURES */
+
+main .menFeatures{
+    padding: 50px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    height: 300px;
+}
+
+main .menFeatures .menFeaturesHeader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #001489;
+    padding-bottom: 50px;
+
+}
+
+main .menFeatures .menFeaturesContainer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.menFeaturesContainer .featuresBox{
+    display: flex;
+    flex-direction:column;
+    justify-content: space-around;
+
+}
+
+main .menFeatures .menFeaturesContainer .featuresBox .feat{
+
+    display: flex;
+    gap: 10px;
+}
+
+main .latestVideoSectionBtickest{
+    padding-top: 50px;
+    border-top: 2px solid rgb(169, 169, 169);
+}
+
+
+
+/* SECTION CHELSEA MEN SQUAD */
+/* TARJETA DE JUGADORES */
+
+.playerBox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+}
+
+.playerBox .playerImage img{
+    width: 150px;
+    height: 240px;
+}
+
+
+
+.playerBox.playerName{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.playerBox .playerName button{
+    color: white;
+    width: 200px;
+    height: 40px;
+    background-color: #001489;
+}
+
+
+
+/* KEEPERS AND COACH SECTION */
+
+main .mainHeader{
+   color: #001489;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main .keepersYCoach{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+
+main .keepersYCoach .keepers .keepersHeader{
+    display: flex;
+    justify-content: center;
+    color: #001489;
+    padding-bottom: 20px;
+}
+
+main .keepersYCoach .keepers .keepersContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    
+}
+
+main .keepersYCoach .coachHeader{
+    display: flex;
+    justify-content: center;
+    color: #001489;
+    padding-bottom: 20px;
+}
+main .keepersYCoach .coach{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* DEFENDERS SECTION */
+
+.section .playerContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+main .forwards{
+    padding-bottom: 100px;
+}
+
+
+/* LATEST NEWS STYLE */
+/* SECTION MAIN HEADER */
+
+main .headerLatest{
+    padding-top: 0px;
+    padding-bottom: 0px;
+
+}
+
+
+main .content .contentContainer{
+   
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    align-items: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    
+}
+
+main .content .contentContainerSubtitle{
+    color: #001489;
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+main .content .div3{
+
+    padding-bottom: 100px;
+}
+
