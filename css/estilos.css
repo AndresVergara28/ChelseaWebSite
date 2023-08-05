@@ -197,16 +197,22 @@ button{
 
  /* SPOOOONSOOOORSSS */
 /* Modificaremos la section de sponsors */
+
 .sponsorSection{
     border-top: 2px solid rgb(170, 170, 170);
     border-bottom: 2px solid rgb(170, 170, 170);
-    height: 200px;
-    display: flex;
-    align-items: center;
-    justify-content:space-around;
-    
 }
 
+@media screen and (max-width:575px) {
+
+    .sponsorSection .row{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    
+}
 
 
 /* BUY TICKETS HTML  */
@@ -360,6 +366,14 @@ main .forwards{
     object-fit: cover;
 
 
+}
+
+/* latestvideo Section */
+
+.imgLatestVideo{
+    width: 100%;
+    height: 40vh;
+    object-fit: cover;
 }
 
 
