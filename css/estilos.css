@@ -1,10 +1,9 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
 
 
 /* REINICAR SISTEMA */
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -35,19 +34,15 @@ body {
     background-color: rgb(69, 69, 85);
     color: white;
 }
-main .headerLatest{
-    padding-top: 0px;
-    padding-bottom: 0px;
 
-}
 
 /* AQUI MODIFICAREMOS EL FOOTER */
-footer{
+footer {
     color: white;
     background-color: #001489;
 }
 
-.iconFooter{
+.iconFooter {
     width: 2px;
 }
 
@@ -56,83 +51,76 @@ footer{
 /* AQUI EMPIEZA EL DISEÑO DEL MAIN */
 
 /* CARRUSEL SECTION */
-.lastVideos {
-    margin-top: 100px;
-    margin-bottom: 100px;
-    padding-bottom: 100px;
-}
-
-
 .carousel-indicators button {
     width: 100px;
     height: 100px;
-    border-radius:0%;
+    border-radius: 0%;
     background-color: #eeff00;
     border: none;
     margin: 0 5px;
 }
 
 .carousel-indicators .active {
-    background-color:#001489;
+    background-color: #001489;
 }
 
-.carousel-indicators{
+.carousel-indicators {
     background-color: #FFD700;
 }
 
-
-/* LATEST VIDEO SECTION */
-
-.latesVideoSection{
-    height: 400px;
+.imgCarousel {
+    width: 100vw;
+    height: 75vh;
+    object-fit: cover
 }
 
-.latesVideoSection .latesVideoHeader{
-    padding-top: 20px;
-    
-    display: flex;
-    justify-content: space-evenly
-}
 
-.latesVideoSection .latesVideoHeader .latesVideoLink{
-    display: flex;
-    align-items: center;
-    gap: 10px;
+/* LASTVIDEOS SECTION */
+.lastVideos {
+    border: 0.1rem solid rgb(170, 170, 170);
+    ;
+    border-radius: 0.5rem;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding: 2rem 2rem;
 
 }
 
-.videosContainer{
-    margin-top: 50px;
-    display: flex;
-    justify-content: center;
-    gap: 60px;
+.imgLatestVideo {
+    width: 100%;
+    height: 40vh;
+    object-fit: cover;
+}
+
+.LastVideos-header {
+    height: 75vh;
+    background-image: url(https://img.chelseafc.com/image/upload/f_auto,c_fill,g_faces,h_540,w_1600,q_90/Background%20Patterns/04447_ReplatformWebsiteHeader_V235.jpg);
 
 }
-.VideoBox{
-    background-color: rgb(133, 137, 159);
-    border: 4px solid rgb(218, 184, 18);
+
+.lastVideos-page {
+    position: relative;
+    top: -30rem;
+    display: grid;
+}
+
+.lastVideos-page div h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 3rem;
+    font-weight:bolder;
     color: white;
-    width: 200px;
-    height: 200px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
-
-
-
-button{
-
-    padding: 5px;
-    background-color: #03f;
-    border-radius: 0px;
-    color: white;
+.lastVideos-container div button{
+    position: relative;
+    top: -25rem;
 }
 
 
 /* NEXT FEATURES SECTION */
 
-.featuresBox{
+/* POR MODIFICAR */
+
+.featuresBox {
     background-color: rgb(145, 150, 179);
     border: 4px solid rgb(218, 184, 18);
     color: white;
@@ -143,7 +131,7 @@ button{
     align-items: center;
 }
 
-.nextFeaturesSection{
+.nextFeaturesSection {
     padding-top: 40px;
     display: flex;
     flex-direction: column;
@@ -151,11 +139,11 @@ button{
     height: 500px;
 }
 
-.nextFeaturesSection .features .nextFeaturesSectionBackground{
+.nextFeaturesSection .features .nextFeaturesSectionBackground {
     position: absolute;
 }
 
-.nextFeaturesSection .nextFeaturesHeader{
+.nextFeaturesSection .nextFeaturesHeader {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -166,13 +154,13 @@ button{
 
 .nextFeaturesSection .nextFeaturesHeader .sectionCategories {
     padding-top: 5px;
-   gap: 5px;
+    gap: 5px;
     display: flex;
     justify-content: center;
 }
 
-.nextFeaturesSection .featuresContainer{
-    
+.nextFeaturesSection .featuresContainer {
+
     width: 100%;
     padding-top: 50px;
     padding-bottom: 50px;
@@ -183,49 +171,38 @@ button{
     justify-content: center;
 }
 
-.nextFeaturesSection .featuresContainer .featuresBox{
+.nextFeaturesSection .featuresContainer .featuresBox {
     display: flex;
-    flex-direction:column;
+    flex-direction: column;
     justify-content: space-around;
 }
 
-.nextFeaturesSection .featuresContainer .featuresBox .feat{
+.nextFeaturesSection .featuresContainer .featuresBox .feat {
 
     display: flex;
-    gap: 10px; 
+    gap: 10px;
 }
 
- /* SPOOOONSOOOORSSS */
-/* Modificaremos la section de sponsors */
+/* SPONSOR SECTION*/
 
-.sponsorSection{
+
+.sponsorSection {
     border-top: 2px solid rgb(170, 170, 170);
     border-bottom: 2px solid rgb(170, 170, 170);
-}
-
-@media screen and (max-width:575px) {
-
-    .sponsorSection .row{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    
 }
 
 
 /* BUY TICKETS HTML  */
 /* SECTION MEN FEATURES */
 
-main .menFeatures{
+main .menFeatures {
     padding: 50px;
     padding-top: 60px;
     padding-bottom: 60px;
     height: 300px;
 }
 
-main .menFeatures .menFeaturesHeader{
+main .menFeatures .menFeaturesHeader {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -234,26 +211,26 @@ main .menFeatures .menFeaturesHeader{
 
 }
 
-main .menFeatures .menFeaturesContainer{
+main .menFeatures .menFeaturesContainer {
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 
-.menFeaturesContainer .featuresBox{
+.menFeaturesContainer .featuresBox {
     display: flex;
-    flex-direction:column;
+    flex-direction: column;
     justify-content: space-around;
 
 }
 
-main .menFeatures .menFeaturesContainer .featuresBox .feat{
+main .menFeatures .menFeaturesContainer .featuresBox .feat {
 
     display: flex;
     gap: 10px;
 }
 
-main .latestVideoSectionBtickest{
+main .latestVideoSectionBtickest {
     padding-top: 50px;
     border-top: 2px solid rgb(169, 169, 169);
 }
@@ -263,7 +240,7 @@ main .latestVideoSectionBtickest{
 /* SECTION CHELSEA MEN SQUAD */
 /* TARJETA DE JUGADORES */
 
-.playerBox{
+.playerBox {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -271,20 +248,19 @@ main .latestVideoSectionBtickest{
     border: 2px solid black;
 }
 
-.playerBox .playerImage img{
+.playerBox .playerImage img {
     width: 150px;
     height: 240px;
 }
 
-
-
-.playerBox.playerName{
+.playerBox.playerName {
     display: flex;
     justify-content: center;
     align-items: center;
 
 }
-.playerBox .playerName button{
+
+.playerBox .playerName button {
     color: white;
     width: 200px;
     height: 40px;
@@ -295,8 +271,8 @@ main .latestVideoSectionBtickest{
 
 /* KEEPERS AND COACH SECTION */
 
-main .mainHeader{
-   color: #001489;
+main .mainHeader {
+    color: #001489;
     padding-top: 50px;
     padding-bottom: 50px;
     display: flex;
@@ -304,35 +280,36 @@ main .mainHeader{
     justify-content: center;
 }
 
-main .keepersYCoach{
+main .keepersYCoach {
     display: flex;
     justify-content: space-evenly;
 }
 
 
 
-main .keepersYCoach .keepers .keepersHeader{
+main .keepersYCoach .keepers .keepersHeader {
     display: flex;
     justify-content: center;
     color: #001489;
     padding-bottom: 20px;
 }
 
-main .keepersYCoach .keepers .keepersContainer{
+main .keepersYCoach .keepers .keepersContainer {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 20px;
-    
+
 }
 
-main .keepersYCoach .coachHeader{
+main .keepersYCoach .coachHeader {
     display: flex;
     justify-content: center;
     color: #001489;
     padding-bottom: 20px;
 }
-main .keepersYCoach .coach{
+
+main .keepersYCoach .coach {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -341,60 +318,33 @@ main .keepersYCoach .coach{
 
 /* DEFENDERS SECTION */
 
-.section .playerContainer{
+.section .playerContainer {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 20px;
 }
 
-main .forwards{
+main .forwards {
     padding-bottom: 100px;
 }
 
-
-/* LATEST NEWS STYLE */
-/* SECTION MAIN HEADER */
-
-
-
-/* CARRUSELL*/
-
-.imgCarousel {
-    width: 100vw;
-    height: 75vh;
-    object-fit: cover;
-
-
-}
-
-/* latestvideo Section */
-
-.imgLatestVideo{
-    width: 100%;
-    height: 40vh;
-    object-fit: cover;
-}
-
-
-
-
-/* SECTION LAST VIDEOS */
-
 /* CARD */
 
-.card{
-    
-    background-color:#ffffff;
-    color:white;
+.card {
+    background-color: #ffffff;
+    color: white;
     font-weight: bolder;
     border-color: none;
     border: 0;
 }
-.card-body{
-    background-color:#FFD700;
+
+.card-body {
+    background-color: #FFD700;
     border-radius: 0.2rem;
 }
-.card-text{
-    font-size:1rem;;
+
+.card-text {
+    font-size: 1rem;
+    ;
 }
