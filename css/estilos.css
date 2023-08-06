@@ -114,6 +114,10 @@ footer {
     position: relative;
     top: -25rem;
 }
+.subtituloHomeLastVideo{
+    font-size: 3rem;
+    font-weight: bolder;
+}
 
 
 /* NEXT FEATURES SECTION */
