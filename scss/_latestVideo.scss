@@ -1,0 +1,42 @@
+.lastVideos {
+    border: 0.1rem solid rgb(170, 170, 170);
+    ;
+    border-radius: 0.5rem;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding: 2rem 2rem;
+
+}
+
+.imgLatestVideo {
+    width: 100%;
+    height: 40vh;
+    object-fit: cover;
+}
+
+.LastVideos-header {
+    height: 75vh;
+    background-image: url(https://img.chelseafc.com/image/upload/f_auto,c_fill,g_faces,h_540,w_1600,q_90/Background%20Patterns/04447_ReplatformWebsiteHeader_V235.jpg);
+
+}
+
+.lastVideos-page {
+    position: relative;
+    top: -30rem;
+    display: grid;
+}
+
+.lastVideos-page div h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 3rem;
+    font-weight:bolder;
+    color: white;
+}
+.lastVideos-container div button{
+    position: relative;
+    top: -25rem;
+}
+.subtituloHomeLastVideo{
+    font-size: 3rem;
+    font-weight: bolder;
+}

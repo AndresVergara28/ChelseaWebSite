@@ -1,37 +1,29 @@
 /* AQUI MODIFICAREMOS EL HEADER */
 
+header {
+    width: 100%;
+    height: 20vh;
 
+    div {
+        
+        nav {
+            .fuentes {
+                font-weight: bolder;
+                font-size: 1.5rem;
+                color: #001489;
+                padding: 2rem;
 
-header{
-    div{
-        a{
-            .logo {
-                width: 10rem;
-            }
-        }
+                li {
+                    a {
+                        color: $color-fuente-principal;
 
-        nav{
-            .fuentes{
-                background-color: fafafa;
+                    }
 
+                }
 
             }
         }
     }
-
-
-
-
 }
-
-
-.fuentes {
-    font-weight: bolder;
-    font-size: 1.5rem;
-    color: #001489;
-    padding: 2rem;
-}
-
-
 
 

@@ -1,0 +1,51 @@
+.carousel-section {
+    padding: 0;
+    div {
+        background-color: $color-azul-secundario;
+        font-weight: bolder;
+
+        .carousel-indicators {
+            background-color:$color-amarillo-prinicipal;
+
+            .active{
+                background-color: $color-azul-principal;
+
+            }
+
+        }
+
+        .carousel-inner {
+            .carousel-item{
+                .imgCarousel {
+                    width: 100vw;
+                    height: 80vh;
+                    object-fit: cover
+                }
+                .carousel-caption{
+                    h2{
+                        font-weight: bolder;
+                    }
+                }
+
+
+            }
+        }
+    }
+}
+
+
+
+
+
+.carousel-indicators button {
+    width: 100px;
+    height: 100px;
+    border-radius: 0%;
+    background-color: #eeff00;
+    border: none;
+    margin: 0 5px;
+}
+
+/* .carousel-indicators .active {
+    background-color: #001489;
+} */
