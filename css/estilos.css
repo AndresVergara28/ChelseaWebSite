@@ -4,19 +4,29 @@ header {
   width: 100%;
   height: 20vh;
 }
-header div nav .fuentes {
-  font-weight: bolder;
+header .container-fluid .collapse .fuentes {
+  font-weight: 600;
   font-size: 1.5rem;
   color: #001489;
-  padding: 2rem;
 }
-header div nav .fuentes li a {
+header .container-fluid .collapse .fuentes li a {
   color: #001489;
+}
+header .container-fluid .collapse .fuentes li a:hover {
+  color: #ec1c23;
+  font-weight: bolder;
+  font-size: 1.7rem;
 }
 
 footer {
   color: white;
   background-color: #001489;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -32,22 +42,27 @@ body {
   padding: 0;
 }
 .carousel-section div {
-  background-color: #0d6efd;
+  background-color: #001489;
   font-weight: bolder;
+  border: 1px white solid;
+  border-radius: 0.5rem;
 }
 .carousel-section div .carousel-indicators {
   background-color: #FFD700;
 }
 .carousel-section div .carousel-indicators .active {
-  background-color: #001489;
+  background-color: #ec1c23;
 }
 .carousel-section div .carousel-inner .carousel-item .imgCarousel {
   width: 100vw;
-  height: 80vh;
+  height: 78vh;
   object-fit: cover;
 }
 .carousel-section div .carousel-inner .carousel-item .carousel-caption h2 {
   font-weight: bolder;
+}
+.carousel-section div .carousel-inner .carousel-item .carousel-caption p {
+  font-weight: bold;
 }
 
 .carousel-indicators button {
@@ -62,36 +77,89 @@ body {
 /* .carousel-indicators .active {
     background-color: #001489;
 } */
-.lastVideos {
+.last-video-home {
+  background-color: red;
   border: 0.1rem solid rgb(170, 170, 170);
   border-radius: 0.5rem;
-  margin-top: 100px;
-  margin-bottom: 100px;
+  margin-top: 10rem;
+  margin-bottom: 10rem;
   padding: 2rem 2rem;
 }
-
-.imgLatestVideo {
+.last-video-home .last-video-title {
+  margin-bottom: 2rem;
+}
+.last-video-home .last-video-title a h2 {
+  font-size: 3rem;
+  color: #ec1c23;
+  font-weight: 700;
+}
+.last-video-home .last-video-title a h2:hover {
+  color: #FFD700;
+  font-weight: bolder;
+}
+.last-video-home .card-container .card {
+  border: 0.1rem solid white;
+  background-color: #001489;
+}
+.last-video-home .card-container .card a {
+  text-decoration: none;
+  border-radius: 0.2rem;
+}
+.last-video-home .card-container .card a div {
+  color: white;
+  font-weight: bolder;
+}
+.last-video-home .card-container .card:hover {
+  border: 0.2rem solid #FFD700;
+}
+.last-video-home .card-container .card:hover a div {
+  color: #FFD700;
+}
+.last-video-home .imgLatestVideo {
   width: 100%;
   height: 40vh;
   object-fit: cover;
 }
 
-.LastVideos-header {
+.lastVideos-container .LastVideos-header {
   height: 75vh;
-  background-image: url(https://img.chelseafc.com/image/upload/f_auto,c_fill,g_faces,h_540,w_1600,q_90/Background%20Patterns/04447_ReplatformWebsiteHeader_V235.jpg);
+  width: 100%;
+  background-color: #0d6efd;
+  background-image: url(https://www.chelseafc.com/assets/1.0.0.28212/5cadcadc5d33ee1441f2.png);
+  padding: 0;
 }
-
-.lastVideos-page {
+.lastVideos-container .lastVideos-page {
   position: relative;
-  top: -30rem;
-  display: grid;
+  top: -27rem;
 }
-
-.lastVideos-page div h2 {
+.lastVideos-container .lastVideos-page div h2 {
   font-family: "Roboto", sans-serif;
   font-size: 3rem;
   font-weight: bolder;
   color: white;
+}
+.lastVideos-container .lastVideos-page .card-container .card {
+  border: 0.1rem solid white;
+  background-color: #001489;
+}
+.lastVideos-container .lastVideos-page .card-container .card a {
+  text-decoration: none;
+  border-radius: 0.2rem;
+}
+.lastVideos-container .lastVideos-page .card-container .card a div {
+  color: white;
+  font-weight: bolder;
+}
+.lastVideos-container .lastVideos-page .card-container .card a .imgLatestVideo {
+  width: 100%;
+  height: 40vh;
+  object-fit: cover;
+}
+.lastVideos-container .lastVideos-page .card-container .card:hover {
+  border: 0.2rem solid #FFD700;
+}
+.lastVideos-container .lastVideos-page .card-container .card:hover a div {
+  color: #FFD700;
 }
 
 .lastVideos-container div button {
@@ -99,9 +167,9 @@ body {
   top: -25rem;
 }
 
-.subtituloHomeLastVideo {
-  font-size: 3rem;
-  font-weight: bolder;
+.sponsorSection {
+  border-top: 2px solid rgb(170, 170, 170);
+  border-bottom: 2px solid rgb(170, 170, 170);
 }
 
 /*# sourceMappingURL=estilos.css.map */

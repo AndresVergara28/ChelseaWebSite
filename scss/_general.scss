@@ -1,8 +1,19 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 
+}
 body {
     background-color: rgb(255, 255, 255);
     font-family: 'Roboto', sans-serif;
 }
 .logo{
     width: 9rem;
+}
+
+@mixin anclas{
+    text-decoration: none;
+    color:$color_fuentes;
+    font-size: 1rem;
 }

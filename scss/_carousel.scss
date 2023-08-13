@@ -1,14 +1,16 @@
 .carousel-section {
     padding: 0;
     div {
-        background-color: $color-azul-secundario;
+        background-color: $color-azul-principal;
         font-weight: bolder;
+        border: 1px white solid;
+        border-radius: 0.5rem;
 
         .carousel-indicators {
             background-color:$color-amarillo-prinicipal;
 
             .active{
-                background-color: $color-azul-principal;
+                background-color:$color-rojo-principal
 
             }
 
@@ -18,12 +20,17 @@
             .carousel-item{
                 .imgCarousel {
                     width: 100vw;
-                    height: 80vh;
+                    height: 78vh;
                     object-fit: cover
                 }
                 .carousel-caption{
                     h2{
+                    
                         font-weight: bolder;
+                    }
+                    p{
+                        font-weight: bold;
+                                             
                     }
                 }
 
