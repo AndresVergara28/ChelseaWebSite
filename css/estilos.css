@@ -14,8 +14,6 @@ header .container-fluid .collapse .fuentes li a {
 }
 header .container-fluid .collapse .fuentes li a:hover {
   color: #ec1c23;
-  font-weight: bolder;
-  font-size: 1.7rem;
 }
 
 footer {
@@ -98,7 +96,7 @@ body {
   font-weight: bolder;
 }
 .last-video-home .card-container .card {
-  border: 0.1rem solid white;
+  border: 0.12rem solid white;
   background-color: #001489;
 }
 .last-video-home .card-container .card a {
@@ -110,7 +108,7 @@ body {
   font-weight: bolder;
 }
 .last-video-home .card-container .card:hover {
-  border: 0.2rem solid #FFD700;
+  border: 0.12rem solid #FFD700;
 }
 .last-video-home .card-container .card:hover a div {
   color: #FFD700;
@@ -125,6 +123,8 @@ body {
   height: 75vh;
   width: 100%;
   background-color: #0d6efd;
+  /* 
+  background: linear-gradient(to right bottom, $color-azul-principal,$color-azul-secundario); */
   background-image: url(https://www.chelseafc.com/assets/1.0.0.28212/5cadcadc5d33ee1441f2.png);
   padding: 0;
 }
@@ -139,7 +139,7 @@ body {
   color: white;
 }
 .lastVideos-container .lastVideos-page .card-container .card {
-  border: 0.1rem solid white;
+  border: 0.125rem solid white;
   background-color: #001489;
 }
 .lastVideos-container .lastVideos-page .card-container .card a {
@@ -156,20 +156,114 @@ body {
   object-fit: cover;
 }
 .lastVideos-container .lastVideos-page .card-container .card:hover {
-  border: 0.2rem solid #FFD700;
+  border: 0.125rem solid #FFD700;
 }
 .lastVideos-container .lastVideos-page .card-container .card:hover a div {
   color: #FFD700;
 }
-
-.lastVideos-container div button {
+.lastVideos-container .load-more-button {
+  margin-top: 5rem;
   position: relative;
   top: -25rem;
 }
+.lastVideos-container .load-more-button button {
+  background-color: #ffd700;
+  color: #001489;
+  font-weight: bolder;
+  border: 0.125rem #001489 solid;
+}
+.lastVideos-container .load-more-button button:hover {
+  background-color: #ffae00;
+}
 
 .sponsorSection {
-  border-top: 2px solid rgb(170, 170, 170);
-  border-bottom: 2px solid rgb(170, 170, 170);
+  background-color: white;
+  /* border-top: 2px solid rgb(170, 170, 170);
+  border-bottom: 2px solid rgb(170, 170, 170); */
+  /*     border: 2px solid rgb(170, 170, 170); */
 }
+
+.hero {
+  background-color: red;
+  width: 100%;
+  height: 75vh;
+  background-image: url(https://www.chelseafc.com/assets/1.0.0.28212/5cadcadc5d33ee1441f2.png);
+}
+
+/* .playerBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+} */
+/* .playerBox .playerImage img {
+    width: 150px;
+    height: 240px;
+}
+ */
+/* .playerBox.playerName {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+} */
+/* .playerBox .playerName button {
+    color: white;
+    width: 200px;
+    height: 40px;
+    background-color: #001489;
+} */
+/* main .mainHeader {
+    color: #001489;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+/* 
+main .keepersYCoach {
+    display: flex;
+    justify-content: space-evenly;
+} */
+/* main .keepersYCoach .keepers .keepersHeader {
+    display: flex;
+    justify-content: center;
+    color: #001489;
+    padding-bottom: 20px;
+} */
+/* 
+main .keepersYCoach .keepers .keepersContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+} */
+/* main .keepersYCoach .coachHeader {
+    display: flex;
+    justify-content: center;
+    color: #001489;
+    padding-bottom: 20px;
+} */
+/* main .keepersYCoach .coach {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+} */
+/* DEFENDERS SECTION */
+/* .section .playerContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+main .forwards {
+    padding-bottom: 100px;
+}
+ */
 
 /*# sourceMappingURL=estilos.css.map */

@@ -19,6 +19,7 @@
                 &:hover {
                     color: $color-amarillo-prinicipal;
                     font-weight: bolder;
+                    
                 }
             }
         }
@@ -26,7 +27,7 @@
 
     .card-container {
         .card {
-            border: 0.1rem solid white;
+            border: 0.12rem solid white;
             background-color: $color-azul-principal;
 
             a {
@@ -42,7 +43,7 @@
 
             &:hover {
 
-                border: 0.2rem solid $color-amarillo-prinicipal;
+                border: 0.12rem solid $color-amarillo-prinicipal;
 
                 a {
                     div {
@@ -65,8 +66,11 @@
     .LastVideos-header {
         height: 75vh;
         width: 100%;
+
         background-color: $color-azul-secundario;
-        background-image:url(https://www.chelseafc.com/assets/1.0.0.28212/5cadcadc5d33ee1441f2.png);
+        /* 
+        background: linear-gradient(to right bottom, $color-azul-principal,$color-azul-secundario); */
+        background-image: url(https://www.chelseafc.com/assets/1.0.0.28212/5cadcadc5d33ee1441f2.png);
         padding: 0;
     }
 
@@ -86,7 +90,7 @@
 
         .card-container {
             .card {
-                border: 0.1rem solid white;
+                border: 0.125rem solid white;
                 background-color: $color-azul-principal;
 
                 a {
@@ -108,7 +112,7 @@
 
                 &:hover {
 
-                    border: 0.2rem solid $color-amarillo-prinicipal;
+                    border: 0.125rem solid $color-amarillo-prinicipal;
 
                     a {
                         div {
@@ -122,14 +126,23 @@
         }
     }
 
-}
+    .load-more-button {
+        margin-top: 5rem;
+        position: relative;
+        top: -25rem;
 
+        button {
+            background-color: $color-boton-principal;
+            color: $color-fuente-principal;
+            font-weight: bolder;
+            border: 0.125rem $color-azul-principal solid;
 
+            &:hover {
+                background-color: $color-boton-secundario;
 
+            }
 
+        }
 
-
-.lastVideos-container div button {
-    position: relative;
-    top: -25rem;
+    }
 }
