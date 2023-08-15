@@ -9,11 +9,17 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 .logo{
-    width: 9rem;
+    width: 7.5rem;
 }
 
 @mixin anclas{
     text-decoration: none;
     color:$color_fuentes;
     font-size: 1rem;
+}
+@mixin cardPlayers{
+
+    .keeperYcoach{
+        background-color: red;
+    }
 }

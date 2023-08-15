@@ -19,7 +19,7 @@
                 &:hover {
                     color: $color-amarillo-prinicipal;
                     font-weight: bolder;
-                    
+
                 }
             }
         }
@@ -33,6 +33,12 @@
             a {
                 text-decoration: none;
                 border-radius: 0.2rem;
+
+                .imgLatestVideo {
+                    width: 100%;
+                    height: 40vh;
+                    object-fit: cover;
+                }
 
                 div {
                     color: white;
@@ -55,11 +61,7 @@
         }
     }
 
-    .imgLatestVideo {
-        width: 100%;
-        height: 40vh;
-        object-fit: cover;
-    }
+
 }
 
 .lastVideos-container {
@@ -67,10 +69,10 @@
         height: 75vh;
         width: 100%;
 
-        background-color: $color-azul-secundario;
+       background: linear-gradient(to top,$color-azul-secundario,$color-azul-principal,$color-azul-terciario);
         /* 
         background: linear-gradient(to right bottom, $color-azul-principal,$color-azul-secundario); */
-        background-image: url(https://www.chelseafc.com/assets/1.0.0.28212/5cadcadc5d33ee1441f2.png);
+        
         padding: 0;
     }
 
@@ -80,9 +82,8 @@
 
         div {
             h2 {
-                font-family: 'Roboto', sans-serif;
-                font-size: 3rem;
-                font-weight: bolder;
+                font-family: $fuente-titulo1;
+                font-size: 8rem;
                 color: white;
             }
 

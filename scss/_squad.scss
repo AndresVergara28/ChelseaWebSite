@@ -1,9 +1,135 @@
-.hero{
-    background-color: red;
-    width: 100%;
-    height: 75vh;
-    background-image:url(https://www.chelseafc.com/assets/1.0.0.28212/5cadcadc5d33ee1441f2.png);
+main {
+    background-color: $color-azul-principal;
+
+    .hero {
+
+        width: 100%;
+        height: 80vh;
+        background-color: $color-azul-principal;
+        background-image: url(https://www.chelseafc.com/assets/1.0.0.28212/0403510db7da255f04a5.png);
+        padding: 0;
+
+        div {
+            margin-left: 2rem;
+            color: white;
+
+            h5 {
+                font-family: $fuente-secundaria;
+                font-size: 2rem;
+                font-weight: bolder;
+            }
+
+            h2 {
+                font-family: $fuente-titulo1;
+                font-size: 8rem;
+
+
+            }
+        }
+    }
+
+    .players-coach-section {
+        margin-top: 10rem;
+
+        .row {
+
+            .card {
+                display: flex;
+                flex-direction: row;
+                box-sizing: border-box;
+                border: 0.0015rem solid;
+                border-radius: 0;
+
+
+                .player-details {
+                    .player-number-container {
+                        position: absolute;
+                        top: 0 + 1%;
+                        right: 0 + 3%;
+
+                        .player-number {
+                            font-size: 8rem;
+                            font-family: $fuente-titulo1;
+                            color: rgb(190, 187, 187);
+                        }
+                    }
+
+                    .player-name-container {
+                        position: absolute;
+                        bottom: 0 + 1%;
+                        right: 0 + 1%;
+
+                        .first-name-container {
+                            display: flex;
+                            justify-content: end;
+
+                            .first-name {
+                                color: $color-azul-principal;
+                                font-family: $fuente-principal;
+                                font-weight: bold;
+                            }
+                        }
+
+                        .last-name {
+                            background-color: $color-azul-principal;
+                            padding: 0.2rem 1rem;
+                            text-transform: uppercase;
+                            font-size: 3rem;
+                            font-family: $fuente-titulo1;
+                            color: white;
+
+                        }
+                    }
+
+                    .player-image {
+                        width: 100%;
+                        height: 60vh;
+                    }
+
+                }
+
+                &:hover {
+                    background-color: $color-background-hover;
+                    border: 0.025rem white solid;
+
+                    .player-details {
+                        .player-number-container {
+                            .player-number {
+                                color: white;
+                            }
+                        }
+
+                        .player-name-container {
+                            .first-name-container {
+                                .first-name {
+                                    color:white;
+                                    font-weight: bolder;
+                                }
+                            }
+
+                            .last-name {
+                                border: 0.025rem white solid;
+
+                            }
+                        }
+
+                        .player-image {
+                            width: 100%;
+                            height: 60vh;
+                        }
+
+                    }
+                }
+
+
+            }
+        }
+    }
+
+
+
 }
+
 
 
 
@@ -13,13 +139,13 @@
     align-items: center;
     justify-content: center;
     border: 2px solid black;
-} */
+}
 
-/* .playerBox .playerImage img {
+.playerBox .playerImage img {
     width: 150px;
     height: 240px;
-}
- */
+} */
+
 /* .playerBox.playerName {
     display: flex;
     justify-content: center;

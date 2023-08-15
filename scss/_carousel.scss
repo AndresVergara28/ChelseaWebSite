@@ -2,11 +2,13 @@
     padding: 0;
     div {
         background-color: $color-azul-principal;
+        background: linear-gradient(to bottom, $color-azul-terciario,$color-azul-principal, $color-azul-secundario);
         font-weight: bolder;
         border: 1px white solid;
         border-radius: 0.5rem;
 
         .carousel-indicators {
+            background: none;
             background-color:$color-amarillo-prinicipal;
 
             .active{
