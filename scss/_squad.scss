@@ -1,5 +1,5 @@
-main {
-    background-color: $color-azul-principal;
+.main-chelsea-players {
+    /*   background-color: $color-azul-principal; */
 
     .hero {
 
@@ -30,6 +30,7 @@ main {
 
     .players-coach-section {
         margin-top: 10rem;
+        margin-bottom: 10rem;
 
         .row {
 
@@ -37,7 +38,7 @@ main {
                 display: flex;
                 flex-direction: row;
                 box-sizing: border-box;
-                border: 0.0015rem solid;
+                border: 0.0015rem solid black;
                 border-radius: 0;
 
 
@@ -56,7 +57,7 @@ main {
 
                     .player-name-container {
                         position: absolute;
-                        bottom: 0 + 1%;
+                        bottom: 0 + 5%;
                         right: 0 + 1%;
 
                         .first-name-container {
@@ -70,15 +71,34 @@ main {
                             }
                         }
 
-                        .last-name {
-                            background-color: $color-azul-principal;
-                            padding: 0.2rem 1rem;
-                            text-transform: uppercase;
-                            font-size: 3rem;
-                            font-family: $fuente-titulo1;
-                            color: white;
+                        .last-name-container {
+                            .last-name {
+                                background-color: $color-azul-principal;
+                                padding: 0.2rem 1rem;
+                                text-transform: uppercase;
+                                font-size: 3rem;
+                                font-family: $fuente-titulo1;
+                                color: white;
+
+                            }
 
                         }
+
+
+                        .position-container {
+                            display: flex;
+                            justify-content: end;
+
+                            .position {
+                                font-size: 1rem;
+                                font-weight: bolder;
+                                color: $color-azul-principal;
+                                font-family: $fuente-principal;
+
+                            }
+                        }
+
+
                     }
 
                     .player-image {
@@ -90,7 +110,7 @@ main {
 
                 &:hover {
                     background-color: $color-background-hover;
-                    border: 0.025rem white solid;
+                    border: 0.0015rem white solid;
 
                     .player-details {
                         .player-number-container {
@@ -102,22 +122,26 @@ main {
                         .player-name-container {
                             .first-name-container {
                                 .first-name {
-                                    color:white;
+                                    color: white;
                                     font-weight: bolder;
                                 }
                             }
 
-                            .last-name {
-                                border: 0.025rem white solid;
+                            .last-name-container {
+                                .last-name {
+                                    border: 0.025rem white solid;
+
+                                }
 
                             }
-                        }
 
-                        .player-image {
-                            width: 100%;
-                            height: 60vh;
-                        }
+                            .position-container {
+                                .position {
+                                    color: white;
+                                }
+                            }
 
+                        }
                     }
                 }
 

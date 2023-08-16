@@ -68,8 +68,9 @@
     .LastVideos-header {
         height: 75vh;
         width: 100%;
+        background-color: $color-azul-principal;
 
-       background: linear-gradient(to top,$color-azul-secundario,$color-azul-principal,$color-azul-terciario);
+       background-image: url(https://www.chelseafc.com/assets/1.0.0.28212/0403510db7da255f04a5.png);
         /* 
         background: linear-gradient(to right bottom, $color-azul-principal,$color-azul-secundario); */
         
