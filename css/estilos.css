@@ -5,19 +5,28 @@
 header {
   width: 100%;
   height: 20vh;
+  background-color: white;
 }
-header .container-fluid .collapse .fuentes {
+header .container-fluid {
+  background-color: white;
+}
+header .container-fluid .navbar-collapse .fuentes {
   font-weight: 600;
   font-size: 1.5rem;
   color: #001489;
 }
-header .container-fluid .collapse .fuentes li a {
+header .container-fluid .navbar-collapse .fuentes li a {
   color: #001489;
 }
-header .container-fluid .collapse .fuentes li a:hover {
+header .container-fluid .navbar-collapse .fuentes li a:hover {
   color: #ec1c23;
 }
 
+@media screen and (max-width: 992px) {
+  header .container-fluid .navbar-collapse .fuentes {
+    font-size: 1rem;
+  }
+}
 footer {
   color: white;
   background-color: #001489;
@@ -188,6 +197,8 @@ body {
 
 .main-chelsea-players {
   /*   background-color: $color-azul-principal; */
+  border: 0;
+  padding: 0;
 }
 .main-chelsea-players .hero {
   width: 100%;
@@ -264,7 +275,7 @@ body {
 }
 .main-chelsea-players .players-coach-section .row .card .player-details .player-image {
   width: 100%;
-  height: 60vh;
+  height: 50vh;
 }
 .main-chelsea-players .players-coach-section .row .card:hover {
   background-color: #03f;
@@ -290,6 +301,21 @@ body {
 }
 .women-chelsea-players .players-coach-section .row .card:hover {
   background-color: #bb2e7e;
+}
+
+@media screen and (max-width: 992px) {
+  .main-chelsea-players .hero {
+    height: 40vh;
+  }
+  .main-chelsea-players .hero div {
+    margin-left: 0.2rem;
+  }
+  .main-chelsea-players .hero div h5 {
+    font-size: 1rem;
+  }
+  .main-chelsea-players .hero div h2 {
+    font-size: 2rem;
+  }
 }
 
 /*# sourceMappingURL=estilos.css.map */
