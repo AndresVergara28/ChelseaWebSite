@@ -3,11 +3,11 @@ main {
         background-color: #f1f3f6;
         background-color: white;
 
-        .men-features-section {
+        .features-section-container{
             .section-title{
                 h2{
                     font-size: 2rem;
-                    padding: 2rem;
+                    margin-top: 5rem;
                     font-family: $fuente-secundaria;
                     color: $color-fuente-principal;
                 }
@@ -16,8 +16,9 @@ main {
 
             .card-features-container {
 
-                gap: 2rem;
+              
                 .card-container {
+                    margin-bottom: 1rem;
 
                     .feature-card {
                        

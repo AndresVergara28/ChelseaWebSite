@@ -346,26 +346,26 @@ main .features-section {
   background-color: #f1f3f6;
   background-color: white;
 }
-main .features-section .men-features-section .section-title h2 {
+main .features-section .features-section-container .section-title h2 {
   font-size: 2rem;
-  padding: 2rem;
+  margin-top: 5rem;
   font-family: "Libre Baskerville", serif;
   color: #001489;
 }
-main .features-section .men-features-section .card-features-container {
-  gap: 2rem;
+main .features-section .features-section-container .card-features-container .card-container {
+  margin-bottom: 1rem;
 }
-main .features-section .men-features-section .card-features-container .card-container .feature-card {
+main .features-section .features-section-container .card-features-container .card-container .feature-card {
   background-color: #f1f3f6;
   display: flex;
   flex-direction: column;
 }
-main .features-section .men-features-section .card-features-container .card-container .feature-card .feature-date {
+main .features-section .features-section-container .card-features-container .card-container .feature-card .feature-date {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-main .features-section .men-features-section .card-features-container .card-container .feature-card .feature-date h3 {
+main .features-section .features-section-container .card-features-container .card-container .feature-card .feature-date h3 {
   text-transform: uppercase;
   font-size: 1.2rem;
   font-weight: bolder;
@@ -373,50 +373,50 @@ main .features-section .men-features-section .card-features-container .card-cont
   margin: 0;
   padding-top: 1rem;
 }
-main .features-section .men-features-section .card-features-container .card-container .feature-card .feature-date h4 {
+main .features-section .features-section-container .card-features-container .card-container .feature-card .feature-date h4 {
   text-transform: uppercase;
   font-size: 0.8rem;
   font-weight: bold;
   color: gray;
   margin: 0;
 }
-main .features-section .men-features-section .card-features-container .card-container .feature-card .feature-versus {
+main .features-section .features-section-container .card-features-container .card-container .feature-card .feature-versus {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
   padding: 1rem;
 }
-main .features-section .men-features-section .card-features-container .card-container .feature-card .feature-versus .team1 img {
+main .features-section .features-section-container .card-features-container .card-container .feature-card .feature-versus .team1 img {
   width: 8rem;
 }
 @media screen and (max-width: 992px) {
-  main .features-section .men-features-section .card-features-container .card-container .feature-card .feature-versus .team1 img {
+  main .features-section .features-section-container .card-features-container .card-container .feature-card .feature-versus .team1 img {
     width: 6rem;
   }
 }
-main .features-section .men-features-section .card-features-container .card-container .feature-card .feature-versus .time h2 {
+main .features-section .features-section-container .card-features-container .card-container .feature-card .feature-versus .time h2 {
   font-family: "Libre Baskerville", serif;
   color: #001489;
   font-size: 3rem;
 }
-main .features-section .men-features-section .card-features-container .card-container .feature-card .feature-button {
+main .features-section .features-section-container .card-features-container .card-container .feature-card .feature-button {
   background-color: #001489;
   padding: 1rem;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-main .features-section .men-features-section .card-features-container .card-container .feature-card .feature-button a {
+main .features-section .features-section-container .card-features-container .card-container .feature-card .feature-button a {
   text-decoration: none;
   color: #001489;
   color: white;
   font-family: "Libre Baskerville", serif;
   font-size: 1rem;
 }
-main .features-section .men-features-section .card-features-container .card-container .feature-card .feature-button a:hover {
+main .features-section .features-section-container .card-features-container .card-container .feature-card .feature-button a:hover {
   color: #FFD700;
 }
-main .features-section .men-features-section .card-features-container .card-container .feature-card:hover {
+main .features-section .features-section-container .card-features-container .card-container .feature-card:hover {
   background-color: #FFD700;
 }
 
