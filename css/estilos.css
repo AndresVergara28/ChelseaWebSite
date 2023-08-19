@@ -336,6 +336,11 @@ body {
   .main-chelsea-players .hero div h2 {
     font-size: 2rem;
   }
+  .main-chelsea-players .players-coach-section .row .card .player-details .player-image {
+    width: 100%;
+    height: 70vh;
+    object-fit: contain;
+  }
 }
 
 /*# sourceMappingURL=estilos.css.map */
