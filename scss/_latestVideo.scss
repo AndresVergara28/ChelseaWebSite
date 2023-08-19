@@ -37,7 +37,7 @@
                 .imgLatestVideo {
                     width: 100%;
                     height: 40vh;
-                    object-fit: cover;
+                    object-fit: contain;
                 }
 
                 div {
@@ -108,7 +108,7 @@
                     .imgLatestVideo {
                         width: 100%;
                         height: 40vh;
-                        object-fit: cover;
+                        object-fit: contain;
                     }
                 }
 

@@ -1,0 +1,107 @@
+main {
+    .features-section {
+        background-color: #f1f3f6;
+        background-color: white;
+
+        .men-features-section {
+            .section-title{
+                h2{
+                    font-size: 2rem;
+                    padding: 2rem;
+                    font-family: $fuente-secundaria;
+                    color: $color-fuente-principal;
+                }
+            }
+          
+
+            .card-features-container {
+
+                gap: 2rem;
+                .card-container {
+
+                    .feature-card {
+                       
+                    
+                        background-color: #f1f3f6;
+                        display: flex;
+                        flex-direction: column;
+
+                        .feature-date {
+                            display: flex;
+                            flex-direction: column;
+                            align-items: center;
+                            h3 {
+                                text-transform: uppercase;
+                                font-size: 1.2rem;
+                                font-weight: bolder;
+                                color: black;
+                                margin: 0;
+                                padding-top: 1rem;
+                            }
+
+                            h4 {
+                                text-transform: uppercase;
+                                font-size: 0.8rem;
+                                font-weight: bold;
+                                color: gray;
+                                margin: 0;
+                            }
+
+                        }
+
+                        .feature-versus {
+                      
+                            display: flex;
+                            align-items: center;
+                            justify-content: space-evenly;
+                            padding: 1rem;
+
+                            .team1 {
+                                img {
+                                    width: 8rem;
+                                    @media screen and (max-width: 992px){
+                                        width: 6rem;
+                                    }
+                                }
+                               
+                            }
+
+                    
+                            .time {
+                                h2 {
+                                    font-family: $fuente-secundaria;
+                                    color: $color-fuente-principal;
+                                    font-size: 3rem;
+                                }
+                            }
+                        }
+
+                        .feature-button {
+                            background-color: $color-azul-principal;
+                            padding: 1rem;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+
+                            a {
+                                @include anclas;
+                                color: white;
+                                font-family: $fuente-secundaria;
+                                font-size: 1rem;
+                                &:hover{
+                                    color: $color-amarillo-prinicipal;
+                                }
+                            }
+
+                        }
+                    
+                        &:hover{
+                            background-color: $color-amarillo-prinicipal;
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+}
