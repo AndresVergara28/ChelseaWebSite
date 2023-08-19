@@ -2,6 +2,7 @@
     /*   background-color: $color-azul-principal; */
     border: 0;
     padding: 0;
+
     .hero {
         width: 100%;
         height: 50vh;
@@ -104,6 +105,7 @@
                     .player-image {
                         width: 100%;
                         height: 50vh;
+                        object-fit: cover;
                     }
 
                 }
@@ -154,45 +156,41 @@
 
 }
 
-.women-chelsea-players{
-    .hero{
+.women-chelsea-players {
+    .hero {
         background-color: $color-background-hover2;
         background-image: url(https://www.chelseafc.com/assets/1.0.0.28212/0ca76aad10156c612955.png);
     }
 
-    .players-coach-section{
-        .row{
-            .card{
-                &:hover{
+    .players-coach-section {
+        .row {
+            .card {
+                &:hover {
                     background-color: $color-background-hover2;
                 }
             }
 
         }
     }
-  
+
 }
 
 
-@media screen and (max-width: 992px){
-
-    .main-chelsea-players{
-        .hero { 
-            height: 60vh;
+@media screen and (max-width: 992px) {
+    .main-chelsea-players {
+        .hero {
+            height: 20vh;
             div {
                 margin-left: 0.2rem;
-    
                 h5 {
                     font-size: 1rem;
-
                 }
-    
                 h2 {
                     font-size: 2rem;
                 }
             }
         }
-        
+
     }
-    
+
 }

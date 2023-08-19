@@ -68,18 +68,18 @@
     .LastVideos-header {
         height: 75vh;
         width: 100%;
-        background-color:$color-azul-principal;
+        background-color: $color-azul-principal;
 
-       background-image: url(https://www.chelseafc.com/assets/1.0.0.28212/0ca76aad10156c612955.png);
+        background-image: url(https://www.chelseafc.com/assets/1.0.0.28212/0ca76aad10156c612955.png);
         /* 
         background: linear-gradient(to right bottom, $color-azul-principal,$color-azul-secundario); */
-        
+
         padding: 0;
     }
 
     .lastVideos-page {
         position: relative;
-        top: -27rem;
+        top: -30rem;
 
         div {
             h2 {
@@ -146,5 +146,19 @@
 
         }
 
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .lastVideos-container {
+        .lastVideos-page {
+            position: relative;
+            top: -25rem; 
+            div {
+                h2 {
+                    font-size: 2rem;
+                }
+            }
+        }
     }
 }

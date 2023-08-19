@@ -6,10 +6,15 @@ header {
     background-color: white;
     .container-fluid {
         background-color: white;
+        a{
+            .logo{
+                width: 7.5rem;
+            }
+        }
         .navbar-collapse{
             .fuentes {
-                font-weight: 600;
-                font-size: 1.5rem;
+                font-weight: bolder;
+                font-size: 2rem;
                 color: $color-fuente-principal;
     
                 li {
@@ -35,14 +40,19 @@ header {
 }
 @media screen and (max-width: 992px){
     header {
+        height: 15vh;
+        width: 100%;
         .container-fluid {
-            .navbar-collapse{
-                .fuentes {
-                    font-size: 1rem;
+            a{
+                .logo{
+                    width: 6.5rem;
                 }
             }
-        
+            .navbar-collapse{
+                .fuentes {
+                    font-size: 1.5rem;
+                }
+            }
         }
     }
-    
 }
