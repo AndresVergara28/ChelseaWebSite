@@ -106,3 +106,23 @@ main {
         }
     }
 }
+main {
+    .features-section-home {
+        margin-bottom: 10rem;
+        .features-section-container{
+            .section-title{
+                h2{
+                    a{
+                        @include anclas;
+
+                        &:hover{
+                            color: $color-azul-secundario;
+                        }
+                    }
+                
+                }
+            }
+
+        }
+    }
+}
