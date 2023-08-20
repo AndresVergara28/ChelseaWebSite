@@ -411,7 +411,10 @@ main .features-section .features-section-container .card-features-container .car
 }
 
 main .features-section-home {
-  margin-bottom: 10rem;
+  margin-bottom: 5rem;
+}
+main .features-section-home .features-section-container .section-title h2 {
+  margin-top: 0%;
 }
 main .features-section-home .features-section-container .section-title h2 a {
   text-decoration: none;

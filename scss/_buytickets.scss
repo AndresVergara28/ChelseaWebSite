@@ -108,10 +108,12 @@ main {
 }
 main {
     .features-section-home {
-        margin-bottom: 10rem;
+        margin-bottom: 5rem;
+    
         .features-section-container{
             .section-title{
                 h2{
+                    margin-top: 0%;
                     a{
                         @include anclas;
 
