@@ -321,10 +321,10 @@ body {
     margin-left: 0.2rem;
   }
   .main-chelsea-players .hero div h5 {
-    display: none;
+    font-size: 0.5rem;
   }
   .main-chelsea-players .hero div h1 {
-    display: none;
+    font-size: 2rem;
   }
   .main-chelsea-players .players-coach-section .row .card .player-details .player-image {
     width: 100%;
